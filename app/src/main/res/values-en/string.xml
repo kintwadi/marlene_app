@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name" translatable="false"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string-array name="words">
+        <item>Home</item>
+        <item>Car</item>
+        <item>Scooter</item>
+        <item>Country</item>
+    </string-array>
+    <string name="title_activity_login" translatable="false">LoginActivity</string>
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password" translatable="false">Password</string>
+    <string name="action_sign_in" translatable="false">Sign in or register</string>
+    <string name="action_sign_in_short" translatable="false">Sign in</string>
+    <string name="welcome" translatable="false">"Welcome !"</string>
+    <string name="invalid_username" translatable="false">Not a valid username</string>
+    <string name="invalid_password" translatable="false">Password must be >5 characters</string>
+    <string name="login_failed" translatable="false">"Login failed"</string>
+    <string name="signup" translatable="false">Create Account</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="new_password">New password</string>
+    <string name="your_email_address">Your email address</string>
+    <string name="send">Send</string>
+    <string name="code_verification">Enter 4 digit code sent to your e-mail</string>
+    <string name="verify">Verify</string>
+    <string name="user_name">User name</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="telephone">Telephone</string>
+    <string name="glossary">Glossary</string>
+    <string name="quiz">Quiz</string>
+    <string name="course_title">A1 German - Deutsch - English</string>
+    <string name="search">Search here...</string>
+    <string name="details">Details</string>
+    <string name="set_up">Set-up</string>
+    <string name="study">Study</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="password_reset">Password reset</string>
+
+    <string name="col1">Word</string>
+    <string name="col2">Phonetic</string>
+    <string name="col3">Sound</string>
+
+
+</resources>

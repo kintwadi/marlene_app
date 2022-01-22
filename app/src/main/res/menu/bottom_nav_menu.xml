@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/navegation_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"/>
+    <item android:id="@+id/navegatio_study"
+        android:icon="@drawable/ic_study"
+        android:title="Study"/>
+    <item android:id="@+id/navegation_quiz"
+        android:icon="@drawable/ic_quiz"
+        android:title="Quiz"/>
+    <item android:id="@+id/navegation_glossary"
+        android:icon="@drawable/ic_glossary"
+        android:title="Glossary"/>
+    <item android:id="@+id/navegation_setup"
+        android:icon="@drawable/ic_set_up"
+        android:title="Set-up"/>
+</menu>

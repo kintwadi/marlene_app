@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_bg"
+    tools:context=".activity.Login">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="37dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="76dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="viewEnd"
+                android:layout_marginStart="141dp"
+                android:layout_marginEnd="145dp"
+                 />
+
+            <EditText
+                android:id="@+id/edit_sign_name"
+                android:layout_width="300dp"
+                android:layout_height="42dp"
+                android:layout_below="@+id/imageView3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="102dp"
+                android:layout_marginTop="87dp"
+                android:layout_marginEnd="69dp"
+                android:textAlignment="center"
+                android:ems="10"
+                android:hint="@string/user_name"
+                android:background="@drawable/text_view_rounded_corner"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHint="@android:color/darker_gray"
+                android:iconifiedByDefault="true"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edit_sign_password"
+                android:layout_width="300dp"
+                android:layout_height="42dp"
+                android:layout_below="@+id/edit_sign_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="83dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="78dp"
+                android:background="@drawable/text_view_rounded_corner"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHint="@android:color/darker_gray"
+                android:ems="10"
+                android:textAlignment="center"
+                android:hint="@string/password"
+                android:iconifiedByDefault="true"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="266dp"
+                android:layout_height="42dp"
+                android:layout_below="@+id/edit_sign_password"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="79dp"
+                android:layout_marginTop="96dp"
+                android:layout_marginEnd="76dp"
+                android:layout_marginBottom="159dp"
+                android:onClick="loginEventListener"
+                android:text="@string/login"
+                android:textAllCaps="false"
+                app:backgroundTint="#CF3030" />
+
+            <Button
+                android:id="@+id/btn_login2"
+                android:layout_width="266dp"
+                android:layout_height="42dp"
+                android:layout_below="@+id/edit_sign_password"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="82dp"
+                android:layout_marginTop="183dp"
+                android:layout_marginEnd="73dp"
+                android:layout_marginBottom="159dp"
+                android:onClick="createAccountEventListener"
+                android:text="@string/create_account"
+                android:textAllCaps="false"
+                app:backgroundTint="#D5D527" />
+
+            <TextView
+                android:id="@+id/login_message"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView3"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="46dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="51dp"
+                android:textColor="@android:color/holo_red_light"
+                android:textAlignment="center"
+                android:text="" />
+            <Spinner
+                android:id="@+id/spinner_country_flag"
+                android:layout_width="69dp"
+                android:layout_height="36dp"
+                android:layout_below="@+id/imageView3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="-51dp"
+                android:layout_marginEnd="17dp" />
+
+            <TextView
+                android:id="@+id/textView_forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_sign_name"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="78dp"
+                android:autoLink="all"
+                android:onClick="forgotPasswordEventListener"
+                android:text="@string/forgot_password"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_light" />
+
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

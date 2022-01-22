@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="words">
+        <item>Home</item>
+        <item>Car</item>
+        <item>Scooter</item>
+        <item>Country</item>
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Acessar ou Registrar</string>
+    <string name="action_sign_in_short">Acessar</string>
+    <string name="welcome">"Benvindo !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="signup">Criar conta</string>
+    <string name="login">Acessar</string>
+    <string name="create_account">Criar conta</string>
+    <string name="new_password">Nova Senha</string>
+    <string name="your_email_address">Email</string>
+    <string name="send">Enviar</string>
+    <string name="code_verification">Digite o código de 4 dígitos enviado para o seu e-mail</string>
+    <string name="verify">Verificar</string>
+    <string name="user_name">Utilizador</string>
+    <string name="repeat_password">Repetir senha</string>
+    <string name="email_address">Email</string>
+    <string name="password">Senha</string>
+    <string name="telephone">Telefone</string>
+    <string name="glossary">Glosario</string>
+    <string name="quiz">Advinha</string>
+    <string name="search">Procurar aqui...</string>
+    <string name="details">Detalhes</string>
+    <string name="set_up">Registrar</string>
+    <string name="study">Study</string>
+    <string name="course_title">A1 Alemao - Alemao - Ingles</string>
+    <string name="forgot_password">Esqueceu sua senha ?</string>
+    <string name="password_reset">Password reset</string>
+    <string name="invalid_login_data">Usuario or senha invalida</string>
+</resources>
